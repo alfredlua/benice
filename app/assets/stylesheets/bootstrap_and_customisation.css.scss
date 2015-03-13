@@ -1,0 +1,60 @@
+@import url('//fonts.googleapis.com/css?family=Lato:400,700');
+
+$navbar-border-radius: 			0;
+$navbar-default-link-color: white;
+
+@import 'bootstrap';
+
+.container-fluid {
+	padding: 0 0 !important;
+}
+
+.center {
+	text-align: center;
+}
+
+.navbar {
+	background: transparent;
+	border: 0px;
+}
+
+.masthead {
+	width: 100%;
+	height: 700px;
+	margin-top: -70px;
+	margin-bottom: 20px;
+	background-image: url('cover photo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.masthead-text {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	background: transparent;
+	position: relative;
+	top: 15%;
+}
+
+#mc_embed_signup{
+	background: transparent;  
+	margin-left: auto;
+	margin-right: auto;
+	font:14px Lato, sans-serif; 
+	width: 350px;
+}
+
+#mc_embed_signup input.button{
+	position: absolute;
+	top: 10.5px;
+	right: 50px;
+	width: 20% !important;
+	height: 34px !important;
+	border-radius: 0px;
+	background: #2980b9;
+}
+
+#mc_embed_signup_scroll input.email{
+	float: left;
+}
